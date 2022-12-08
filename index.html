@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Final Fantasy 14 Collectable Lookup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Final Fantasy 14 Collectable Lookup</h1>
+    
+    <div class='container'>
+      <form>
+          <label>Enter an Item Name: </label>
+          <input id="itemInput" type="text"></input><br />
+          <select id='collectableType'>
+            <option value="0">Select Collectable Type:</option>
+            <option value="1">Achievements</option>
+            <option value="2">Titles</option>
+            <option value="3">Mounts</option>
+            <option value="4">Orchestrions</option>
+            <option value="5">Spells</option>
+            <option value="6">Emotes</option>
+            <option value="7">Bardings</option>
+            <option value="8">Hairstyles</option>
+            <option value="9">Armoires</option>
+            <option value="10">Fashions</option>
+            <option value="11">Minions</option>
+            <option value="12">Relics</option>
+          </select>
+          <input id="itemSubmit" type="submit" value="Submit"></input>
+      </form>
+    </div>
+    
+    <div id="results" class='container'>
+        <h2>Query Results</h2>
+    </div>
+
+
+    <footer>
+        View the full code on <a href="https://github.com/BYU-CS-260/lab2-javascript-gknappattack">my Github</a>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+        integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+    <script text="type/javascript" src="script.js">
+    </script>
+
+
+</body>
+
+</html>
